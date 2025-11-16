@@ -1,0 +1,73 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+    background: linear-gradient(180deg, #071428 0%, #0b1a2b 60%, #0d2233 100%);
+    color: #e6eef8;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+
+    padding-top: 70px;
+}
+
+main {
+    flex: 1; /* împinge footerul în jos */
+}
+
+/* Links & hover */
+a {
+    color: #9fb4ff;
+}
+a:hover {
+    color: #cfe0ff;
+    text-decoration: none;
+}
+
+/* FOOTER */
+footer {
+    background-color: rgba(8, 14, 22, 0.98);
+    color: #d6e3f5;
+    border-top: 1px solid rgba(255,255,255,0.03);
+}
+footer a {
+    color: #e6eef8;
+}
+footer a:hover {
+    color: #cfe0ff;
+}
+
+/* Card / profile panel */
+.profile-panel {
+    background: rgba(3,8,14,0.55);
+    border: 1px solid rgba(255,255,255,0.03);
+    backdrop-filter: blur(6px);
+}
+
+/* Portrait */
+.portrait-container {
+    max-width: 320px;
+}
+.portrait-img {
+    width: 100%;
+    height: 560px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.6);
+}
+
+.portrait-container {
+    display: flex;
+    height: 100%; /* ocupă toată înălțimea coloanei */
+}
+
+.portrait-img {
+    width: auto;        /* lățimea se ajustează proporțional */
+    height: 70%;       /* înălțimea ocupă coloana */
+    object-fit: contain; /* păstrează proporțiile, nu taie poza */
+    border-radius: 8px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.6);
+}
