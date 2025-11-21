@@ -27,10 +27,10 @@
             <!-- Link-uri + buton schimbare limbă -->
             <div class="collapse navbar-collapse justify-content-center" id="mainNavbar">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Acasa</a></li>
-                    <li class="nav-item"><a class="nav-link" href="edu.html">Educatie/Experienta</a></li>
-                    <li class="nav-item"><a class="nav-link" href="hbb.html">Hobby-uri</a></li>
-                    <li class="nav-item"><a class="nav-link" href="galerie.html">Galerie Foto</a></li>
+                    <li class="nav-item"><a class="nav-link" id="nav-home" href="index.html">Acasa</a></li>
+                    <li class="nav-item"><a class="nav-link" id="nav-edu" href="edu.html">Educatie/Experienta</a></li>
+                    <li class="nav-item"><a class="nav-link" id="nav-hobby" href="hbb.html">Hobby-uri</a></li>
+                    <li class="nav-item"><a class="nav-link" id="nav-gallery" href="galerie.html">Galerie Foto</a></li>
                 </ul>
 
                 <button id="lang-btn" class="btn btn-outline-light ms-lg-auto mt-2 mt-lg-0">RO / EN</button>
@@ -45,11 +45,18 @@
             <div class="col-12 col-md-8">
                 <div class="p-4 rounded profile-panel">
                     <h2 id="name" class="mb-2">Drug Erick Robert</h2>
-                    <p id="job" class="lead">Vitor inginer de telecomunicatii</p>
-                    <p id="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
-        in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
-        anim id est laborum.</p>
+                    <p id="job" class="lead">Viitor inginer de telecomunicatii</p>
+                    <p id="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit
+                        in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                        cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                        anim id est laborum.</p>
+                    <a href="mailto:erick.drug@student.upt.ro" id="mail" target="_blank" class="btn btn-primary mt-3">
+                        Trimite email
+                    </a>
+
                 </div>
             </div>
 
@@ -66,7 +73,8 @@
         <div class="container d-flex justify-content-between align-items-center px-5">
 
             <!-- Copyright stânga -->
-            <div>© 2025 Drug Erick Robert. Toate drepturile rezervate.</div>
+            <div id="footer-copyright">© 2025 Drug Erick Robert. Toate drepturile rezervate.</div>
+
 
             <!-- Iconițe dreapta -->
             <div class="d-flex gap-2">
